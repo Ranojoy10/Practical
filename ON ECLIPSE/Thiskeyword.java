@@ -7,9 +7,9 @@ public class Thiskeyword {
         float fee;
         // constructor
         Thiskeyword(int rollno, String name, float fee) {
-        	rollno=rollno;
-        	name=name;
-        	fee=fee;
+        	this.rollno=rollno;
+        	this.name=name;
+        	this.fee=fee;
         }
         // method
         void display() {
